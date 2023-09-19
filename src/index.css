@@ -276,7 +276,8 @@ nav {
   transform: rotate(90deg);
 }
 .logo {
-  height: 40px;
+  height: 45px;
+  width: 6rem;
 }
 .links a {
   color: var(--grey-700);
@@ -291,4 +292,18 @@ nav {
   background: var(--primary-100);
   color: var(--primary-500);
   padding-left: 1.5rem;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.home h1 {
+  font-family: 'Trocchi', serif;
+  letter-spacing: 15px;
+  color: #7c795d;
+  font-size: 45px;
 }
